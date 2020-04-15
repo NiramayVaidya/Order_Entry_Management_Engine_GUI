@@ -1,0 +1,24 @@
+VIEW requirements.txt for install modules
+RUN sudo -H pip3 install -r requirements.txt
+
+WINDOWS
+    login
+    signup
+    invalid credentials (error)
+    passwords don't match (error)
+    buy
+    sell
+    modify
+    cancel
+
+RUN main.py
+
+TODO
+    Use SqLite3 DB for validation and storage
+    Create respective JSON objects from respective on click handlers
+    Freeze fields in the modify window
+    Dynamically update the suggestion list dropdowns in the windows as the user types (currently, symbols for the available shares for trading are hard coded and only those appear statically as options in the dropdown menu)
+    All independent error message windows should be removed and instead the error messages should dynamically be shown in the existing windows itself (in case the popup option for errors is used, correctly filled user information must be retained)
+    All popup windows should overlay existing open windows and not destroy them and create them again
+    Clean the code (Too many objects getting created unnecessarily and widget classes have unneeded attributes which can be put outside)
+

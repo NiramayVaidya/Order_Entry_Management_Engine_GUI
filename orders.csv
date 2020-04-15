@@ -1,0 +1,8 @@
+buy,BANKINDIA,100,0001,BSE,C1,Market,02,1000,Day order,5/11/19
+buy,AAPL,100,0002,NSE,C1,Market,01,100,Day order,5/11/19
+buy,AAPL,100,0001,BSE,C1,Market,01,100,Day order,5/11/19
+buy,AAPL,100,0002,NSE,C2,Market,01,100,Day order,5/11/19
+buy,AAPL,100,0001,BSE,C1,Market,01,100,Day order,5/11/19
+buy,AAPL,100,0001,NSE,C1,Market,01,100,Day order,5/11/19
+sell,AAPL,100,0002,BSE,C2,Market,02,100,Day order,5/11/19
+buy,AAPL,100,0001,BSE,C2,Market,02,120,Day order,5/23/19
